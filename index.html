@@ -1,947 +1,1057 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hi">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <title>Baba Akram Khan Bengali | Spiritual & Astrology Consultation</title>
-  <meta name="description" content="Connect with Baba Akram Khan Bengali for private spiritual and astrology consultation. Discuss love, marriage, relationship and personal concerns directly on WhatsApp." />
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-  <style>
-    :root {
-      --bg: #061712;
-      --bg2: #09231b;
-      --card: rgba(255,255,255,0.055);
-      --gold: #d7b56d;
-      --gold2: #f0d58e;
-      --cream: #f7f0df;
-      --muted: #b8c1ba;
-      --green: #0d3025;
-      --border: rgba(215,181,109,0.22);
-      --shadow: 0 20px 60px rgba(0,0,0,.35);
-    }
-
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
-    html {
-      scroll-behavior: smooth;
-    }
-
-    body {
-      font-family: "Inter", sans-serif;
-      background:
-        radial-gradient(circle at 50% -10%, rgba(215,181,109,.13), transparent 35%),
-        linear-gradient(180deg, #061712 0%, #04110d 100%);
-      color: var(--cream);
-      line-height: 1.6;
-      overflow-x: hidden;
-    }
-
-    a {
-      color: inherit;
-      text-decoration: none;
-    }
-
-    .container {
-      width: min(1120px, calc(100% - 32px));
-      margin: auto;
-    }
-
-    /* TOP BAR */
-    .topbar {
-      padding: 12px 0;
-      text-align: center;
-      font-size: 12px;
-      color: var(--gold2);
-      background: rgba(0,0,0,.2);
-      border-bottom: 1px solid rgba(215,181,109,.12);
-      letter-spacing: .4px;
-    }
-
-    /* NAV */
-    nav {
-      position: absolute;
-      top: 43px;
-      left: 0;
-      width: 100%;
-      z-index: 20;
-      padding: 18px 0;
-    }
-
-    .nav-inner {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 20px;
-    }
-
-    .brand {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      font-family: "Cormorant Garamond", serif;
-      font-size: 21px;
-      font-weight: 700;
-    }
-
-    .brand img {
-      width: 48px;
-      height: 48px;
-      object-fit: contain;
-      border-radius: 50%;
-      border: 1px solid var(--gold);
-      background: #fff;
-    }
-
-    .nav-btn {
-      padding: 10px 18px;
-      border: 1px solid var(--border);
-      border-radius: 30px;
-      color: var(--gold2);
-      font-size: 13px;
-      font-weight: 600;
-      background: rgba(255,255,255,.035);
-    }
-
-    /* HERO */
-    .hero {
-      min-height: 790px;
-      position: relative;
-      display: flex;
-      align-items: center;
-      padding: 140px 0 80px;
-      overflow: hidden;
-    }
-
-    .hero::before {
-      content: "";
-      position: absolute;
-      inset: 0;
-      background:
-        linear-gradient(90deg, rgba(4,17,13,.96) 0%, rgba(4,17,13,.84) 42%, rgba(4,17,13,.30) 100%),
-        url("https://img.sanishtech.com/u/02db15b2db3873f84a53ffc9f2c28cae.jpg") center/cover no-repeat;
-      opacity: .78;
-      z-index: -2;
-    }
-
-    .hero::after {
-      content: "";
-      position: absolute;
-      inset: 0;
-      background:
-        radial-gradient(circle at 80% 35%, rgba(215,181,109,.15), transparent 30%),
-        linear-gradient(180deg, transparent 65%, var(--bg) 100%);
-      z-index: -1;
-    }
-
-    .hero-content {
-      max-width: 680px;
-    }
-
-    .eyebrow {
-      display: inline-flex;
-      align-items: center;
-      gap: 9px;
-      color: var(--gold2);
-      font-size: 12px;
-      font-weight: 700;
-      letter-spacing: 1.8px;
-      text-transform: uppercase;
-      margin-bottom: 20px;
-    }
-
-    .eyebrow::before {
-      content: "✦";
-      font-size: 16px;
-    }
-
-    h1 {
-      font-family: "Cormorant Garamond", serif;
-      font-size: clamp(48px, 7vw, 82px);
-      line-height: .94;
-      font-weight: 600;
-      letter-spacing: -2px;
-      margin-bottom: 24px;
-    }
-
-    h1 span {
-      color: var(--gold2);
-    }
-
-    .hero-text {
-      max-width: 580px;
-      color: #d1d7d2;
-      font-size: 16px;
-      line-height: 1.8;
-      margin-bottom: 32px;
-    }
-
-    .cta-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 13px;
-    }
-
-    .whatsapp-btn {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 10px;
-      min-height: 55px;
-      padding: 0 25px;
-      border-radius: 12px;
-      background: linear-gradient(135deg, #d7b56d, #f0d58e);
-      color: #102018;
-      font-weight: 800;
-      box-shadow: 0 12px 35px rgba(215,181,109,.18);
-      transition: .25s ease;
-    }
-
-    .whatsapp-btn:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 16px 40px rgba(215,181,109,.28);
-    }
-
-    .whatsapp-icon {
-      width: 22px;
-      height: 22px;
-      border-radius: 50%;
-      display: grid;
-      place-items: center;
-      background: #102018;
-      color: var(--gold2);
-      font-size: 13px;
-    }
-
-    .secondary-btn {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      min-height: 55px;
-      padding: 0 24px;
-      border-radius: 12px;
-      border: 1px solid rgba(247,240,223,.25);
-      color: var(--cream);
-      background: rgba(255,255,255,.045);
-      font-weight: 600;
-    }
-
-    .trust-row {
-      display: flex;
-      gap: 25px;
-      flex-wrap: wrap;
-      margin-top: 34px;
-      color: #bdc6bf;
-      font-size: 12px;
-    }
-
-    .trust-row span::before {
-      content: "✓";
-      color: var(--gold2);
-      font-weight: 800;
-      margin-right: 7px;
-    }
-
-    /* SECTION */
-    section {
-      padding: 90px 0;
-    }
-
-    .section-head {
-      text-align: center;
-      max-width: 680px;
-      margin: 0 auto 48px;
-    }
-
-    .section-label {
-      color: var(--gold2);
-      text-transform: uppercase;
-      font-size: 11px;
-      font-weight: 800;
-      letter-spacing: 2px;
-      margin-bottom: 10px;
-    }
-
-    h2 {
-      font-family: "Cormorant Garamond", serif;
-      font-size: clamp(38px, 5vw, 58px);
-      line-height: 1;
-      margin-bottom: 16px;
-    }
-
-    .section-head p {
-      color: var(--muted);
-      font-size: 14px;
-    }
-
-    /* SERVICES */
-    .cards {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 18px;
-    }
-
-    .card {
-      padding: 30px 25px;
-      border: 1px solid var(--border);
-      background: linear-gradient(145deg, rgba(255,255,255,.06), rgba(255,255,255,.025));
-      border-radius: 20px;
-      box-shadow: var(--shadow);
-      position: relative;
-      overflow: hidden;
-    }
-
-    .card::before {
-      content: "";
-      position: absolute;
-      width: 100px;
-      height: 100px;
-      border-radius: 50%;
-      background: rgba(215,181,109,.09);
-      right: -35px;
-      top: -35px;
-    }
-
-    .icon {
-      width: 48px;
-      height: 48px;
-      display: grid;
-      place-items: center;
-      border-radius: 14px;
-      border: 1px solid var(--border);
-      color: var(--gold2);
-      margin-bottom: 20px;
-      font-size: 20px;
-    }
-
-    .card h3 {
-      font-family: "Cormorant Garamond", serif;
-      font-size: 27px;
-      margin-bottom: 9px;
-    }
-
-    .card p {
-      color: var(--muted);
-      font-size: 13px;
-      line-height: 1.75;
-    }
-
-    /* ABOUT */
-    .about {
-      display: grid;
-      grid-template-columns: .9fr 1.1fr;
-      gap: 55px;
-      align-items: center;
-    }
-
-    .about-image {
-      position: relative;
-    }
-
-    .about-image img {
-      width: 100%;
-      max-height: 580px;
-      object-fit: cover;
-      border-radius: 24px;
-      border: 1px solid var(--border);
-      box-shadow: var(--shadow);
-    }
-
-    .gold-frame {
-      position: absolute;
-      inset: 14px -14px -14px 14px;
-      border: 1px solid rgba(215,181,109,.25);
-      border-radius: 24px;
-      z-index: -1;
-    }
-
-    .about-copy h2 {
-      text-align: left;
-    }
-
-    .about-copy p {
-      color: var(--muted);
-      font-size: 14px;
-      line-height: 1.9;
-      margin-bottom: 18px;
-    }
-
-    .features {
-      display: grid;
-      gap: 12px;
-      margin: 28px 0;
-    }
-
-    .feature {
-      display: flex;
-      gap: 13px;
-      align-items: flex-start;
-      padding: 14px;
-      border-radius: 13px;
-      background: rgba(255,255,255,.035);
-      border: 1px solid rgba(255,255,255,.06);
-    }
-
-    .feature strong {
-      display: block;
-      font-size: 13px;
-      margin-bottom: 2px;
-    }
-
-    .feature small {
-      color: var(--muted);
-      font-size: 11px;
-    }
-
-    .check {
-      color: var(--gold2);
-      font-weight: 800;
-      margin-top: 1px;
-    }
-
-    /* COUPLE SECTION */
-    .couple-section {
-      position: relative;
-      overflow: hidden;
-    }
-
-    .couple-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 18px;
-    }
-
-    .couple-card {
-      height: 480px;
-      border-radius: 22px;
-      overflow: hidden;
-      position: relative;
-      border: 1px solid var(--border);
-    }
-
-    .couple-card img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      transition: transform .5s ease;
-    }
-
-    .couple-card:hover img {
-      transform: scale(1.04);
-    }
-
-    .couple-overlay {
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(180deg, transparent 45%, rgba(3,12,9,.92) 100%);
-      display: flex;
-      align-items: flex-end;
-      padding: 28px;
-    }
-
-    .couple-overlay h3 {
-      font-family: "Cormorant Garamond", serif;
-      font-size: 30px;
-    }
-
-    /* PROCESS */
-    .steps {
-      display: grid;
-      grid-template-columns: repeat(3,1fr);
-      gap: 18px;
-      counter-reset: step;
-    }
-
-    .step {
-      counter-increment: step;
-      padding: 28px;
-      border-top: 1px solid var(--border);
-    }
-
-    .step-number::before {
-      content: "0" counter(step);
-      font-family: "Cormorant Garamond", serif;
-      color: var(--gold2);
-      font-size: 42px;
-      font-weight: 700;
-    }
-
-    .step h3 {
-      font-size: 17px;
-      margin: 8px 0;
-    }
-
-    .step p {
-      color: var(--muted);
-      font-size: 13px;
-    }
-
-    /* CTA */
-    .final-cta {
-      padding: 0 0 100px;
-    }
-
-    .cta-box {
-      border: 1px solid var(--border);
-      border-radius: 28px;
-      padding: 65px 25px;
-      text-align: center;
-      background:
-        radial-gradient(circle at center, rgba(215,181,109,.11), transparent 45%),
-        rgba(255,255,255,.035);
-      box-shadow: var(--shadow);
-    }
-
-    .cta-box h2 {
-      max-width: 650px;
-      margin: 0 auto 15px;
-    }
-
-    .cta-box p {
-      max-width: 570px;
-      margin: 0 auto 28px;
-      color: var(--muted);
-      font-size: 14px;
-    }
-
-    /* FOOTER */
-    footer {
-      border-top: 1px solid rgba(215,181,109,.12);
-      padding: 35px 0 110px;
-      text-align: center;
-      color: #89948d;
-      font-size: 11px;
-    }
-
-    footer .footer-brand {
-      color: var(--gold2);
-      font-family: "Cormorant Garamond", serif;
-      font-size: 22px;
-      margin-bottom: 7px;
-    }
-
-    /* FLOATING WHATSAPP */
-    .floating-wa {
-      position: fixed;
-      right: 18px;
-      bottom: 18px;
-      z-index: 100;
-      width: 58px;
-      height: 58px;
-      border-radius: 50%;
-      display: grid;
-      place-items: center;
-      background: #d7b56d;
-      color: #102018;
-      font-size: 24px;
-      box-shadow: 0 10px 35px rgba(0,0,0,.4);
-      border: 2px solid rgba(255,255,255,.25);
-      animation: pulse 2.2s infinite;
-    }
-
-    @keyframes pulse {
-      0%,100% { transform: scale(1); }
-      50% { transform: scale(1.06); }
-    }
-
-    /* MOBILE CTA BAR */
-    .mobile-cta {
-      display: none;
-    }
-
-    @media (max-width: 800px) {
-
-      nav {
-        top: 40px;
-      }
-
-      .brand span {
-        display: none;
-      }
-
-      .hero {
-        min-height: 730px;
-        padding-top: 150px;
-      }
-
-      .hero::before {
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>बाबा अकरम खान बंगाली | रूहानी एवं आध्यात्मिक सलाह</title>
+
+<meta name="description"
+content="बाबा अकरम खान बंगाली से प्रेम, विवाह, रिश्ते, व्यक्तिगत समस्याओं एवं रूहानी मार्गदर्शन के लिए निजी बातचीत करें।">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Noto+Sans+Devanagari:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+:root{
+    --green:#061b14;
+    --green2:#0b2d20;
+    --green3:#123c2b;
+    --gold:#d5ad5b;
+    --gold2:#f1d58b;
+    --cream:#fff8e9;
+    --text:#eee8da;
+    --muted:#b9b8aa;
+    --border:rgba(213,173,91,.25);
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:
+        radial-gradient(circle at 50% 0%,rgba(213,173,91,.12),transparent 30%),
+        var(--green);
+    color:var(--text);
+    font-family:"Noto Sans Devanagari",sans-serif;
+    line-height:1.7;
+    overflow-x:hidden;
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+.container{
+    width:min(1120px,calc(100% - 32px));
+    margin:auto;
+}
+
+/* Islamic Pattern */
+
+.pattern{
+    background-image:
+        linear-gradient(30deg,rgba(213,173,91,.035) 12%,transparent 12.5%,transparent 87%,rgba(213,173,91,.035) 87.5%),
+        linear-gradient(150deg,rgba(213,173,91,.035) 12%,transparent 12.5%,transparent 87%,rgba(213,173,91,.035) 87.5%),
+        linear-gradient(30deg,rgba(213,173,91,.035) 12%,transparent 12.5%,transparent 87%,rgba(213,173,91,.035) 87.5%),
+        linear-gradient(150deg,rgba(213,173,91,.035) 12%,transparent 12.5%,transparent 87%,rgba(213,173,91,.035) 87.5%);
+    background-size:80px 140px;
+}
+
+/* TOP */
+
+.top{
+    text-align:center;
+    padding:9px 10px;
+    font-size:11px;
+    color:var(--gold2);
+    letter-spacing:.5px;
+    border-bottom:1px solid rgba(213,173,91,.12);
+    background:#04120d;
+}
+
+/* NAV */
+
+.nav{
+    position:absolute;
+    top:38px;
+    left:0;
+    width:100%;
+    z-index:20;
+    padding:18px 0;
+}
+
+.nav-inner{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+.logo img{
+    width:55px;
+    height:55px;
+    object-fit:contain;
+    border-radius:50%;
+    background:white;
+    border:1px solid var(--gold);
+}
+
+.logo-text{
+    font-family:"Amiri",serif;
+    font-size:20px;
+    font-weight:700;
+    color:var(--cream);
+}
+
+.nav-wa{
+    padding:10px 18px;
+    border:1px solid var(--border);
+    border-radius:30px;
+    color:var(--gold2);
+    font-size:12px;
+    font-weight:700;
+}
+
+/* HERO */
+
+.hero{
+    min-height:780px;
+    display:flex;
+    align-items:center;
+    position:relative;
+    overflow:hidden;
+    padding:150px 0 90px;
+}
+
+.hero-bg{
+    position:absolute;
+    inset:0;
+    z-index:-2;
+
+    background:
+        linear-gradient(90deg,
+        rgba(3,16,11,.97) 0%,
+        rgba(3,16,11,.90) 42%,
+        rgba(3,16,11,.45) 100%),
+        url("https://img.sanishtech.com/u/02db15b2db3873f84a53ffc9f2c28cae.jpg")
+        center/cover no-repeat;
+}
+
+.hero-bg:after{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:linear-gradient(
+        to bottom,
+        transparent 65%,
+        var(--green) 100%
+    );
+}
+
+.hero-content{
+    max-width:720px;
+}
+
+.arabic{
+    color:var(--gold2);
+    font-family:"Amiri",serif;
+    font-size:25px;
+    margin-bottom:10px;
+}
+
+.badge{
+    display:inline-block;
+    border:1px solid var(--border);
+    padding:6px 14px;
+    border-radius:30px;
+    color:var(--gold2);
+    font-size:11px;
+    margin-bottom:20px;
+    background:rgba(0,0,0,.18);
+}
+
+h1{
+    font-family:"Amiri",serif;
+    font-size:clamp(48px,7vw,82px);
+    line-height:1.05;
+    color:var(--cream);
+    margin-bottom:22px;
+}
+
+h1 span{
+    color:var(--gold2);
+}
+
+.hero p{
+    color:#d1d2c8;
+    font-size:15px;
+    max-width:620px;
+    line-height:2;
+    margin-bottom:30px;
+}
+
+.buttons{
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
+}
+
+.whatsapp{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    min-height:57px;
+    padding:0 27px;
+    border-radius:10px;
+
+    background:linear-gradient(
+        135deg,
+        var(--gold),
+        var(--gold2)
+    );
+
+    color:#102118;
+    font-size:14px;
+    font-weight:800;
+
+    box-shadow:0 12px 35px rgba(213,173,91,.18);
+
+    transition:.25s;
+}
+
+.whatsapp:hover{
+    transform:translateY(-3px);
+}
+
+.whatsapp-icon{
+    width:25px;
+    height:25px;
+    border-radius:50%;
+    display:grid;
+    place-items:center;
+    background:#102118;
+    color:white;
+    font-size:14px;
+}
+
+.outline{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    min-height:57px;
+    padding:0 25px;
+    border:1px solid rgba(255,255,255,.22);
+    border-radius:10px;
+    font-size:13px;
+    font-weight:600;
+}
+
+/* TRUST */
+
+.trust{
+    margin-top:30px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+    color:#c5c8bd;
+    font-size:11px;
+}
+
+.trust span:before{
+    content:"✦";
+    color:var(--gold2);
+    margin-right:6px;
+}
+
+/* SECTION */
+
+section{
+    padding:90px 0;
+}
+
+.section-title{
+    text-align:center;
+    max-width:700px;
+    margin:0 auto 50px;
+}
+
+.small-title{
+    color:var(--gold2);
+    font-size:11px;
+    letter-spacing:2px;
+    font-weight:800;
+    margin-bottom:10px;
+}
+
+h2{
+    font-family:"Amiri",serif;
+    color:var(--cream);
+    font-size:clamp(38px,5vw,58px);
+    line-height:1.1;
+    margin-bottom:14px;
+}
+
+.section-title p{
+    color:var(--muted);
+    font-size:13px;
+}
+
+/* SERVICES */
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:18px;
+}
+
+.card{
+    padding:32px 26px;
+    border-radius:18px;
+    border:1px solid var(--border);
+    background:
+        linear-gradient(
+            145deg,
+            rgba(255,255,255,.055),
+            rgba(255,255,255,.018)
+        );
+    position:relative;
+    overflow:hidden;
+}
+
+.card:before{
+    content:"";
+    position:absolute;
+    width:110px;
+    height:110px;
+    border-radius:50%;
+    right:-45px;
+    top:-45px;
+    border:1px solid rgba(213,173,91,.15);
+}
+
+.card-icon{
+    width:50px;
+    height:50px;
+    border-radius:14px;
+    border:1px solid var(--border);
+    display:grid;
+    place-items:center;
+    color:var(--gold2);
+    font-family:"Amiri",serif;
+    font-size:24px;
+    margin-bottom:18px;
+}
+
+.card h3{
+    font-family:"Amiri",serif;
+    font-size:28px;
+    color:var(--cream);
+    margin-bottom:8px;
+}
+
+.card p{
+    color:var(--muted);
+    font-size:13px;
+    line-height:1.9;
+}
+
+/* ABOUT */
+
+.about{
+    display:grid;
+    grid-template-columns:.9fr 1.1fr;
+    gap:55px;
+    align-items:center;
+}
+
+.about-img{
+    position:relative;
+}
+
+.about-img img{
+    width:100%;
+    height:560px;
+    object-fit:cover;
+    border-radius:22px;
+    border:1px solid var(--border);
+}
+
+.frame{
+    position:absolute;
+    inset:13px -13px -13px 13px;
+    border:1px solid rgba(213,173,91,.23);
+    border-radius:22px;
+    z-index:-1;
+}
+
+.about-content h2{
+    text-align:left;
+}
+
+.about-content p{
+    color:var(--muted);
+    font-size:14px;
+    line-height:2;
+    margin-bottom:17px;
+}
+
+.points{
+    margin:25px 0;
+    display:grid;
+    gap:11px;
+}
+
+.point{
+    display:flex;
+    gap:12px;
+    align-items:flex-start;
+    padding:13px;
+    background:rgba(255,255,255,.035);
+    border:1px solid rgba(255,255,255,.06);
+    border-radius:11px;
+}
+
+.point b{
+    color:var(--gold2);
+}
+
+.point strong{
+    display:block;
+    font-size:13px;
+}
+
+.point small{
+    color:var(--muted);
+    font-size:11px;
+}
+
+/* TANTRIK */
+
+.tantrik{
+    background:
+        linear-gradient(
+            135deg,
+            rgba(18,60,43,.35),
+            rgba(3,17,11,.7)
+        );
+    border-top:1px solid rgba(213,173,91,.12);
+    border-bottom:1px solid rgba(213,173,91,.12);
+}
+
+.tantrik-box{
+    border:1px solid var(--border);
+    border-radius:25px;
+    padding:55px 40px;
+    text-align:center;
+    background:rgba(0,0,0,.12);
+}
+
+.tantrik-symbol{
+    font-family:"Amiri",serif;
+    color:var(--gold2);
+    font-size:35px;
+    margin-bottom:10px;
+}
+
+.tantrik-box p{
+    max-width:720px;
+    margin:0 auto 27px;
+    color:var(--muted);
+    font-size:14px;
+    line-height:2;
+}
+
+.tantrik-list{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:10px;
+    margin:25px 0 30px;
+}
+
+.tantrik-list span{
+    border:1px solid var(--border);
+    padding:9px 15px;
+    border-radius:30px;
+    color:#d9d8ca;
+    font-size:11px;
+}
+
+/* COUPLES */
+
+.couples{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:18px;
+}
+
+.couple{
+    height:500px;
+    border-radius:22px;
+    overflow:hidden;
+    position:relative;
+    border:1px solid var(--border);
+}
+
+.couple img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    transition:.5s;
+}
+
+.couple:hover img{
+    transform:scale(1.04);
+}
+
+.couple-overlay{
+    position:absolute;
+    inset:0;
+    display:flex;
+    align-items:flex-end;
+    padding:28px;
+
+    background:
+        linear-gradient(
+            to top,
+            rgba(2,12,8,.95),
+            transparent 65%
+        );
+}
+
+.couple-overlay h3{
+    font-family:"Amiri",serif;
+    font-size:29px;
+}
+
+/* PROCESS */
+
+.steps{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:18px;
+}
+
+.step{
+    padding:28px;
+    border-top:1px solid var(--border);
+}
+
+.number{
+    color:var(--gold2);
+    font-family:"Amiri",serif;
+    font-size:43px;
+}
+
+.step h3{
+    font-size:17px;
+    margin:5px 0 8px;
+}
+
+.step p{
+    color:var(--muted);
+    font-size:13px;
+}
+
+/* FINAL CTA */
+
+.final{
+    padding:0 0 100px;
+}
+
+.final-box{
+    padding:65px 25px;
+    border-radius:25px;
+    text-align:center;
+    border:1px solid var(--border);
+
+    background:
+        radial-gradient(
+            circle,
+            rgba(213,173,91,.11),
+            transparent 55%
+        ),
+        rgba(255,255,255,.025);
+}
+
+.final-box p{
+    max-width:600px;
+    margin:0 auto 28px;
+    color:var(--muted);
+    font-size:14px;
+}
+
+/* FOOTER */
+
+footer{
+    text-align:center;
+    border-top:1px solid rgba(213,173,91,.12);
+    padding:35px 15px 110px;
+    color:#858f88;
+    font-size:11px;
+}
+
+.footer-name{
+    font-family:"Amiri",serif;
+    color:var(--gold2);
+    font-size:23px;
+    margin-bottom:4px;
+}
+
+/* FLOATING */
+
+.float-wa{
+    position:fixed;
+    right:18px;
+    bottom:20px;
+    width:58px;
+    height:58px;
+    border-radius:50%;
+    display:grid;
+    place-items:center;
+    background:linear-gradient(135deg,var(--gold),var(--gold2));
+    color:#0b2016;
+    font-size:24px;
+    z-index:100;
+    box-shadow:0 10px 35px rgba(0,0,0,.5);
+}
+
+/* MOBILE BAR */
+
+.mobile-bar{
+    display:none;
+}
+
+/* MOBILE */
+
+@media(max-width:800px){
+
+    .logo-text{
+        display:none;
+    }
+
+    .nav{
+        top:38px;
+    }
+
+    .hero{
+        min-height:750px;
+        padding-top:155px;
+    }
+
+    .hero-bg{
         background:
-          linear-gradient(180deg, rgba(4,17,13,.72) 0%, rgba(4,17,13,.82) 60%, #061712 100%),
-          url("https://img.sanishtech.com/u/02db15b2db3873f84a53ffc9f2c28cae.jpg") center/cover no-repeat;
-      }
-
-      h1 {
-        font-size: 57px;
-      }
-
-      .hero-text {
-        font-size: 14px;
-      }
-
-      .cta-row {
-        flex-direction: column;
-      }
-
-      .whatsapp-btn,
-      .secondary-btn {
-        width: 100%;
-      }
-
-      .cards,
-      .about,
-      .couple-grid,
-      .steps {
-        grid-template-columns: 1fr;
-      }
-
-      section {
-        padding: 70px 0;
-      }
-
-      .about {
-        gap: 38px;
-      }
-
-      .about-copy h2 {
-        text-align: left;
-      }
-
-      .couple-card {
-        height: 430px;
-      }
-
-      .floating-wa {
-        bottom: 78px;
-      }
-
-      .mobile-cta {
-        display: block;
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        padding: 9px;
-        background: rgba(4,17,13,.96);
-        backdrop-filter: blur(12px);
-        z-index: 99;
-        border-top: 1px solid var(--border);
-      }
-
-      .mobile-cta a {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 48px;
-        border-radius: 9px;
-        background: linear-gradient(135deg, #d7b56d, #f0d58e);
-        color: #102018;
-        font-size: 13px;
-        font-weight: 800;
-      }
+            linear-gradient(
+                180deg,
+                rgba(3,16,11,.72),
+                rgba(3,16,11,.88) 65%,
+                var(--green) 100%
+            ),
+            url("https://img.sanishtech.com/u/02db15b2db3873f84a53ffc9f2c28cae.jpg")
+            center/cover no-repeat;
     }
-  </style>
+
+    h1{
+        font-size:56px;
+    }
+
+    .hero p{
+        font-size:13px;
+    }
+
+    .buttons{
+        flex-direction:column;
+    }
+
+    .whatsapp,
+    .outline{
+        width:100%;
+    }
+
+    .cards,
+    .about,
+    .couples,
+    .steps{
+        grid-template-columns:1fr;
+    }
+
+    section{
+        padding:70px 0;
+    }
+
+    .about-img img{
+        height:450px;
+    }
+
+    .couple{
+        height:430px;
+    }
+
+    .tantrik-box{
+        padding:40px 20px;
+    }
+
+    .float-wa{
+        bottom:76px;
+    }
+
+    .mobile-bar{
+        display:block;
+        position:fixed;
+        left:0;
+        bottom:0;
+        width:100%;
+        padding:9px;
+        background:rgba(4,17,12,.97);
+        border-top:1px solid var(--border);
+        z-index:99;
+    }
+
+    .mobile-bar a{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        min-height:48px;
+        border-radius:9px;
+        background:linear-gradient(135deg,var(--gold),var(--gold2));
+        color:#102118;
+        font-size:13px;
+        font-weight:800;
+    }
+
+}
+
+</style>
 </head>
+
 
 <body>
 
-  <div class="topbar">
-    ✦ PRIVATE & CONFIDENTIAL CONSULTATION ✦
-  </div>
+<!-- TOP -->
+<div class="top">
+    ✦ निजी एवं गोपनीय बातचीत के लिए WhatsApp पर संपर्क करें ✦
+</div>
 
-  <nav>
+
+<!-- NAV -->
+<nav class="nav">
     <div class="container nav-inner">
 
-      <a href="#" class="brand">
-        <img src="https://img.sanishtech.com/u/5addf756a68858f29fd406e3cdbe9c71.jpg" alt="Baba Akram Khan Bengali">
-        <span>Baba Akram Khan Bengali</span>
-      </a>
+        <a href="#home" class="logo">
 
-      <a href="javascript:void(0)" onclick="openWhatsApp()" class="nav-btn">
-        WhatsApp Consultation
-      </a>
+            <img
+                src="https://img.sanishtech.com/u/5addf756a68858f29fd406e3cdbe9c71.jpg"
+                alt="बाबा अकरम खान बंगाली">
 
-    </div>
-  </nav>
-
-
-  <!-- HERO -->
-  <header class="hero">
-
-    <div class="container">
-
-      <div class="hero-content">
-
-        <div class="eyebrow">
-          Spiritual & Astrology Consultation
-        </div>
-
-        <h1>
-          Find Clarity.<br>
-          Restore <span>Connection.</span>
-        </h1>
-
-        <p class="hero-text">
-          Personalised consultation for those dealing with love, marriage,
-          relationship concerns and difficult personal situations.
-          Share your concern privately and understand your situation
-          with a one-to-one consultation.
-        </p>
-
-        <div class="cta-row">
-
-          <a href="javascript:void(0)" onclick="openWhatsApp()" class="whatsapp-btn">
-            <span class="whatsapp-icon">✆</span>
-            Talk on WhatsApp
-          </a>
-
-          <a href="#services" class="secondary-btn">
-            Explore Consultation
-          </a>
-
-        </div>
-
-        <div class="trust-row">
-          <span>Private Consultation</span>
-          <span>Direct WhatsApp</span>
-          <span>Personal Attention</span>
-        </div>
-
-      </div>
-
-    </div>
-
-  </header>
-
-
-  <!-- SERVICES -->
-  <section id="services">
-
-    <div class="container">
-
-      <div class="section-head">
-        <div class="section-label">Areas of Consultation</div>
-
-        <h2>What Would You Like To Discuss?</h2>
-
-        <p>
-          Every situation is different. Start a private conversation
-          and explain what you are currently facing.
-        </p>
-      </div>
-
-
-      <div class="cards">
-
-        <div class="card">
-          <div class="icon">♡</div>
-
-          <h3>Love & Relationship</h3>
-
-          <p>
-            Discuss relationship uncertainty, communication problems,
-            emotional distance and other matters concerning your love life.
-          </p>
-        </div>
-
-
-        <div class="card">
-          <div class="icon">✦</div>
-
-          <h3>Marriage</h3>
-
-          <p>
-            Talk about marriage-related concerns, compatibility,
-            delays and questions about your relationship journey.
-          </p>
-        </div>
-
-
-        <div class="card">
-          <div class="icon">☾</div>
-
-          <h3>Personal Guidance</h3>
-
-          <p>
-            Share the personal situation that is troubling you and
-            receive a focused one-to-one consultation.
-          </p>
-        </div>
-
-      </div>
-
-    </div>
-
-  </section>
-
-
-  <!-- ABOUT -->
-  <section>
-
-    <div class="container">
-
-      <div class="about">
-
-        <div class="about-image">
-
-          <img
-            src="https://img.sanishtech.com/u/34f55ca5ff6ef57bfe53c4992323d6e6.jpeg"
-            alt="Spiritual consultation"
-          >
-
-          <div class="gold-frame"></div>
-
-        </div>
-
-
-        <div class="about-copy">
-
-          <div class="section-label">One-to-One Consultation</div>
-
-          <h2>A Private Conversation About Your Situation</h2>
-
-          <p>
-            Sometimes the hardest part is simply knowing what to do next.
-            A personal consultation gives you the opportunity to explain
-            your situation directly instead of relying on generic advice.
-          </p>
-
-          <p>
-            Whether your concern is related to love, marriage,
-            relationships or a personal decision, you can start by
-            explaining your situation on WhatsApp.
-          </p>
-
-
-          <div class="features">
-
-            <div class="feature">
-              <div class="check">✓</div>
-              <div>
-                <strong>Private & Confidential</strong>
-                <small>Your conversation is handled privately.</small>
-              </div>
+            <div class="logo-text">
+                बाबा अकरम खान बंगाली
             </div>
 
-            <div class="feature">
-              <div class="check">✓</div>
-              <div>
-                <strong>Direct WhatsApp Conversation</strong>
-                <small>No complicated registration process.</small>
-              </div>
-            </div>
-
-            <div class="feature">
-              <div class="check">✓</div>
-              <div>
-                <strong>Personalised Discussion</strong>
-                <small>Explain your specific concern directly.</small>
-              </div>
-            </div>
-
-          </div>
+        </a>
 
 
-          <a href="javascript:void(0)" onclick="openWhatsApp()" class="whatsapp-btn">
-            Start Your Private Consultation →
-          </a>
-
-        </div>
-
-      </div>
+        <!-- DIRECT WHATSAPP LINK -->
+        <a
+            class="nav-wa"
+            href="https://wa.me/919592445273?text=अस्सलामु%20अलैकुम%20बाबा%20अकरम%20खान%20बंगाली,%20मैं%20आपसे%20निजी%20सलाह%20के%20लिए%20बात%20करना%20चाहता%20हूँ।"
+            target="_blank"
+            rel="noopener"
+        >
+            WhatsApp पर बात करें
+        </a>
 
     </div>
+</nav>
 
-  </section>
 
+<!-- HERO -->
 
-  <!-- COUPLE VISUAL SECTION -->
-  <section class="couple-section">
+<header class="hero" id="home">
+
+    <div class="hero-bg"></div>
 
     <div class="container">
 
-      <div class="section-head">
+        <div class="hero-content">
 
-        <div class="section-label">Relationship Matters</div>
+            <div class="arabic">
+                بسم الله الرحمن الرحيم
+            </div>
 
-        <h2>When Your Heart Needs Answers</h2>
+            <div class="badge">
+                रूहानी • आध्यात्मिक • व्यक्तिगत सलाह
+            </div>
 
-        <p>
-          If something feels uncertain in your relationship,
-          start a private conversation instead of staying confused.
-        </p>
+            <h1>
+                आपकी परेशानी,<br>
+                <span>आपकी बात।</span>
+            </h1>
 
-      </div>
+            <p>
+                प्रेम, विवाह, रिश्ते, पारिवारिक परेशानी या जीवन से जुड़ी
+                किसी व्यक्तिगत चिंता के बारे में निजी रूप से बातचीत करें।
+                अपनी स्थिति सीधे WhatsApp पर बताएं और अपनी समस्या के अनुसार
+                व्यक्तिगत सलाह प्राप्त करें।
+            </p>
 
 
-      <div class="couple-grid">
+            <div class="buttons">
 
-        <div class="couple-card">
+                <!-- MAIN WHATSAPP -->
+                <a
+                    class="whatsapp"
+                    href="https://wa.me/919592445273?text=अस्सलामु%20अलैकुम%20बाबा%20अकरम%20खान%20बंगाली,%20मैं%20अपनी%20व्यक्तिगत%20समस्या%20के%20बारे%20में%20आपसे%20निजी%20सलाह%20लेना%20चाहता%20हूँ।"
+                    target="_blank"
+                    rel="noopener"
+                >
+                    <span class="whatsapp-icon">✆</span>
+                    WhatsApp पर निजी बातचीत करें
+                </a>
 
-          <img
-            src="https://img.sanishtech.com/u/02db15b2db3873f84a53ffc9f2c28cae.jpg"
-            alt="Couple relationship consultation"
-          >
 
-          <div class="couple-overlay">
-            <h3>Love & Emotional Concerns</h3>
-          </div>
+                <a href="#services" class="outline">
+                    सेवाओं के बारे में जानें
+                </a>
+
+            </div>
+
+
+            <div class="trust">
+
+                <span>गोपनीय बातचीत</span>
+                <span>सीधा WhatsApp संपर्क</span>
+                <span>व्यक्तिगत चर्चा</span>
+
+            </div>
 
         </div>
-
-
-        <div class="couple-card">
-
-          <img
-            src="https://img.sanishtech.com/u/34f55ca5ff6ef57bfe53c4992323d6e6.jpeg"
-            alt="Couple consultation"
-          >
-
-          <div class="couple-overlay">
-            <h3>Marriage & Relationship Guidance</h3>
-          </div>
-
-        </div>
-
-      </div>
 
     </div>
 
-  </section>
+</header>
 
 
-  <!-- PROCESS -->
-  <section>
+<!-- SERVICES -->
+
+<section id="services" class="pattern">
 
     <div class="container">
 
-      <div class="section-head">
+        <div class="section-title">
 
-        <div class="section-label">Simple Process</div>
+            <div class="small-title">
+                परामर्श के क्षेत्र
+            </div>
 
-        <h2>Start In 3 Simple Steps</h2>
+            <h2>
+                आपकी परेशानी किस बारे में है?
+            </h2>
 
-        <p>
-          No long forms. Just explain what you need help with.
-        </p>
+            <p>
+                अपनी स्थिति के बारे में सीधे बातचीत शुरू करें।
+            </p>
 
-      </div>
+        </div>
 
 
-      <div class="steps">
+        <div class="cards">
 
-        <div class="step">
 
-          <div class="step-number"></div>
+            <div class="card">
 
-          <h3>Open WhatsApp</h3>
+                <div class="card-icon">♡</div>
 
-          <p>
-            Click the consultation button and
+                <h3>
+                    प्रेम एवं रिश्ते
+                </h3>
+
+                <p>
+                    प्रेम संबंधों में दूरी, गलतफहमी, बातचीत की समस्या,
+                    रिश्ते को लेकर असमंजस या अन्य व्यक्तिगत चिंताओं पर
+                    चर्चा करें।
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <div class="card-icon">✦</div>
+
+                <h3>
+                    विवाह संबंधी सलाह
+                </h3>
+
+                <p>
+                    विवाह से जुड़ी चिंता, रिश्ते की स्थिति,
+                    पारिवारिक परिस्थितियों और व्यक्तिगत सवालों पर
+                    बातचीत करें।
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <div class="card-icon">☾</div>
+
+                <h3>
+                    रूहानी मार्गदर्शन
+                </h3>
+
+                <p>
+                    जीवन में चल रही व्यक्तिगत परेशानियों को समझने और
+                    आगे की दिशा पर चर्चा करने के लिए निजी सलाह लें।
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section>
+
+    <div class="container">
+
+        <div class="about">
+
+
+            <div class="about-img">
+
+                <img
+                    src="https://img.sanishtech.com/u/34f55ca5ff6ef57bfe53c4992323d6e6.jpeg"
+                    alt="रूहानी सलाह">
+
+                <div class="frame"></div>
+
+            </div>
+
+
+            <div class="about-content">
+
+                <div class="small-title">
+                    निजी परामर्श
+                </div>
+
+                <h2>
+                    हर इंसान की परेशानी अलग होती है
+                </h2>
+
+                <p>
+                    इंटरनेट पर मिलने वाली सामान्य सलाह हर परिस्थिति के लिए
+                    सही नहीं होती। इसलिए अपनी वास्तविक स्थिति को सीधे
+                    समझाना और उसके अनुसार बातचीत करना अधिक उपयोगी हो सकता है।
+                </p>
+
+                <p>
+                    प्रेम, विवाह, रिश्ते या किसी व्यक्तिगत परिस्थिति को लेकर
+                    आपके मन में कोई सवाल है तो WhatsApp पर अपनी बात साझा करें।
+                </p>
+
+
+                <div class="points">
+
+                    <div class="point">
+                        <b>✓</b>
+                        <div>
+                            <strong>निजी और गोपनीय बातचीत</strong>
+                            <small>अपनी बात सीधे और निजी रूप से साझा करें।</small>
+                        </div>
+                    </div>
+
+
+                    <div class="point">
+                        <b>✓</b>
+                        <div>
+                            <strong>सीधा WhatsApp संपर्क</strong>
+                            <small>लंबा registration form भरने की जरूरत नहीं।</small>
+                        </div>
+                    </div>
+
+
+                    <div class="point">
+                        <b>✓</b>
+                        <div>
+                            <strong>आपकी परिस्थिति पर चर्चा</strong>
+                            <small>अपनी समस्या को विस्तार से समझाने का अवसर।</small>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <a
+                    class="whatsapp"
+                    href="https://wa.me/919592445273?text=अस्सलामु%20अलैकुम,%20मैं%20बाबा%20अकरम%20खान%20बंगाली%20से%20निजी%20सलाह%20लेना%20चाहता%20हूँ।%20कृपया%20मुझे%20परामर्श%20के%20बारे%20में%20बताएं।"
+                    target="_blank"
+                    rel="noopener"
+                >
+                    ✆ &nbsp; अभी WhatsApp पर बात करें
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- TANTRIK -->
+
+<section class="tantrik">
+
+    <div class="container">
+
+        <div class="tantrik-box">
+
+            <div class="tantrik-symbol">
+                ☾ ✦ ☽
+            </div>
+
+            <div class="small-title">
+                विशेष आध्यात्मिक सेवा
+            </div>
+
+            <h2>
+                तांत्रिक विद्या एवं आध्यात्मिक परामर्श
+            </h2>
+
+            <p>
+                तांत्रिक विद्या अथवा आध्यात्मिक विषयों से जुड़ी अपनी
+                व्यक्तिगत जिज्ञासा और परिस्थिति के बारे में निजी बातचीत करें।
+                आपकी स्थिति को समझने के बाद उपलब्ध परामर्श और प्रक्रिया
+                के बारे में जानकारी दी जाएगी।
+            </p>
+
+
+            <div class="tantrik-list">
+
+                <span>आध्यात्मिक परामर्श</span>
+                <span>व्यक्तिगत मार्गदर्शन</span>
