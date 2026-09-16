@@ -4,9 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>बाबा अकरम खान बंगाली | काला इल्म के माहिर</title>
+<title>बाबा अकरम खान बंगाली | व्यक्तिगत परामर्श</title>
 
-<meta name="description" content="बाबा अकरम खान बंगाली से प्रेम, विवाह, कुंडली, रिश्ते, काला इल्म एवं व्यक्तिगत परामर्श के लिए WhatsApp पर संपर्क करें।">
+<meta name="description" content="बाबा अकरम खान बंगाली से प्रेम, विवाह, रिश्ते, कुंडली, काला इल्म एवं व्यक्तिगत परामर्श के लिए WhatsApp पर संपर्क करें।">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,9 +15,9 @@
 
 <style>
 
-/* =====================================================
-   RESET
-===================================================== */
+/* =========================================================
+   BASIC RESET
+========================================================= */
 
 *{
     margin:0;
@@ -30,94 +30,87 @@ html{
 }
 
 body{
-    margin:0;
-    padding:0 0 72px 0;
-    background:#08050e;
+    background:#08050d;
     color:#f8f0df;
     font-family:"Noto Sans Devanagari",Arial,sans-serif;
     line-height:1.7;
     overflow-x:hidden;
+    padding-bottom:72px;
 }
 
 a{
-    text-decoration:none;
     color:inherit;
+    text-decoration:none;
 }
 
 img{
-    max-width:100%;
     display:block;
+    max-width:100%;
 }
 
 .container{
-    width:calc(100% - 32px);
-    max-width:1120px;
-    margin:0 auto;
+    width:calc(100% - 30px);
+    max-width:1100px;
+    margin:auto;
 }
 
 
-/* =====================================================
+/* =========================================================
    COLORS
-===================================================== */
+========================================================= */
 
 :root{
-    --bg:#08050e;
-    --bg2:#10091a;
-    --card:#120b19;
-    --purple:#251133;
-    --gold:#dfae55;
-    --gold-light:#f6d991;
+    --bg:#08050d;
+    --bg2:#0d0714;
+    --card:#130b1b;
+    --purple:#241130;
+    --gold:#e2b258;
+    --gold2:#f7db91;
     --white:#fff8e8;
-    --muted:#aaa5ae;
-    --green:#11c95b;
-    --green-dark:#08a64b;
-    --red:#c3121c;
-    --border:rgba(223,174,85,.28);
+    --muted:#aaa4ad;
+    --green:#12c95d;
+    --green2:#08a94c;
+    --red:#c4121b;
+    --border:rgba(226,178,88,.25);
 }
 
 
-/* =====================================================
-   STAR BACKGROUND
-===================================================== */
-
-.star-bg{
-    background-image:
-    radial-gradient(circle,rgba(255,255,255,.75) 1px,transparent 1.4px),
-    radial-gradient(circle,rgba(223,174,85,.5) 1px,transparent 1.4px);
-    background-size:105px 105px,155px 155px;
-    background-position:10px 20px,60px 80px;
-}
-
-
-/* =====================================================
+/* =========================================================
    TOP BAR
-===================================================== */
+========================================================= */
 
 .topbar{
     height:38px;
-    background:#040308;
-    border-bottom:1px solid rgba(223,174,85,.15);
     display:flex;
-    justify-content:center;
     align-items:center;
-    color:var(--gold-light);
+    justify-content:center;
+
+    background:#030207;
+
+    border-bottom:1px solid rgba(226,178,88,.15);
+
+    color:var(--gold2);
+
     font-size:11px;
     text-align:center;
+
     padding:0 10px;
 }
 
 
-/* =====================================================
+/* =========================================================
    HEADER
-===================================================== */
+========================================================= */
 
 .header{
     position:absolute;
     top:38px;
     left:0;
     width:100%;
+
+    padding:14px 0;
+
     z-index:20;
-    padding:16px 0;
 }
 
 .header-inner{
@@ -130,15 +123,19 @@ img{
 .brand{
     display:flex;
     align-items:center;
-    gap:11px;
+    gap:10px;
 }
 
-.brand-logo{
+.brand img{
     width:55px;
     height:55px;
-    border-radius:50%;
+
     object-fit:cover;
+
+    border-radius:50%;
+
     border:1px solid var(--gold);
+
     background:#fff;
 }
 
@@ -146,175 +143,225 @@ img{
     font-family:"Amiri",serif;
     font-size:21px;
     font-weight:700;
-    color:var(--white);
 }
 
-.header-wa{
+.header-button{
+    padding:9px 15px;
+
     border:1px solid var(--border);
     border-radius:30px;
-    padding:9px 16px;
+
+    background:rgba(0,0,0,.35);
+
+    color:var(--gold2);
+
     font-size:11px;
     font-weight:800;
-    color:var(--gold-light);
-    background:rgba(0,0,0,.35);
 }
 
 
-/* =====================================================
+/* =========================================================
    HERO
-===================================================== */
+========================================================= */
 
 .hero{
     position:relative;
-    min-height:760px;
-    padding:145px 0 65px;
+
+    min-height:650px;
+
+    padding:125px 0 55px;
+
     display:flex;
-    align-items:center;
+    align-items:flex-start;
+
     overflow:hidden;
 }
 
-.hero-photo{
+.hero-background{
     position:absolute;
     inset:0;
-    z-index:-3;
 
     background-image:
     linear-gradient(
         90deg,
-        rgba(7,3,12,.98) 0%,
-        rgba(7,3,12,.91) 40%,
-        rgba(7,3,12,.60) 100%
+        rgba(5,2,10,.97) 0%,
+        rgba(5,2,10,.88) 45%,
+        rgba(5,2,10,.58) 100%
     ),
     url("https://img.sanishtech.com/u/02db15b2db3873f84a53ffc9f2c28cae.jpg");
 
     background-size:cover;
     background-position:center;
+
+    z-index:0;
 }
 
-.hero-bottom{
+.hero-background:after{
+    content:"";
+
     position:absolute;
-    left:0;
-    right:0;
-    bottom:0;
-    height:180px;
-    background:linear-gradient(transparent,#08050e);
-    z-index:-1;
+    inset:0;
+
+    background-image:
+    radial-gradient(
+        circle,
+        rgba(255,255,255,.65) 1px,
+        transparent 1.4px
+    );
+
+    background-size:105px 105px;
+
+    opacity:.35;
 }
 
 .hero-content{
+    position:relative;
+    z-index:2;
+
     width:100%;
-    max-width:700px;
+    max-width:690px;
 }
 
 .arabic{
     font-family:"Amiri",serif;
-    color:var(--gold-light);
+
+    color:var(--gold2);
+
     font-size:25px;
-    margin-bottom:5px;
+
+    margin-bottom:3px;
 }
 
 .badge{
     display:inline-flex;
     align-items:center;
     gap:7px;
-    border:1px solid var(--border);
-    background:rgba(0,0,0,.28);
-    border-radius:30px;
+
     padding:7px 15px;
-    color:var(--gold-light);
+
+    border:1px solid var(--border);
+
+    border-radius:30px;
+
+    color:var(--gold2);
+
+    background:rgba(0,0,0,.25);
+
     font-size:10px;
     font-weight:800;
-    margin-bottom:18px;
+
+    margin-bottom:17px;
 }
 
 .badge-dot{
     width:7px;
     height:7px;
+
     background:var(--gold);
+
     border-radius:50%;
 }
 
 h1{
     font-family:"Amiri",serif;
-    font-size:clamp(50px,7vw,82px);
-    line-height:1.02;
+
+    font-size:clamp(48px,7vw,78px);
+
+    line-height:1.04;
+
     color:var(--white);
-    margin:0 0 20px 0;
+
+    margin-bottom:17px;
 }
 
 h1 span{
-    color:var(--gold-light);
+    color:var(--gold2);
 }
 
 .hero-text{
     max-width:650px;
-    color:#d3ced5;
+
+    color:#d2cbd5;
+
     font-size:14px;
-    line-height:2;
-    margin-bottom:25px;
+
+    line-height:1.9;
+
+    margin-bottom:22px;
 }
 
 
-/* =====================================================
-   WHATSAPP MAIN BUTTON
-===================================================== */
+/* =========================================================
+   WHATSAPP BUTTON
+========================================================= */
 
-.whatsapp{
+.wa-button{
     width:100%;
-    min-height:70px;
+
+    min-height:69px;
+
     display:flex;
     align-items:center;
     justify-content:space-between;
+
     gap:12px;
 
-    padding:8px 16px 8px 19px;
+    padding:8px 15px 8px 18px;
 
     border-radius:50px;
 
-    background:linear-gradient(
+    background:
+    linear-gradient(
         135deg,
-        #12ca5d,
-        #08aa4d
+        var(--green),
+        var(--green2)
     );
 
-    border:1px solid rgba(116,255,168,.55);
+    border:1px solid rgba(120,255,174,.55);
+
+    box-shadow:
+    0 10px 35px rgba(11,200,88,.22);
 
     color:#fff;
 
-    box-shadow:
-    0 10px 35px rgba(7,203,89,.20);
-
-    transition:.25s;
+    transition:.2s;
 }
 
-.whatsapp:hover{
+.wa-button:hover{
     transform:translateY(-2px);
-    box-shadow:0 14px 40px rgba(7,203,89,.30);
 }
 
 .wa-left{
     display:flex;
     align-items:center;
-    gap:13px;
+    gap:12px;
 }
 
-.wa-icon{
+.wa-circle{
     width:52px;
     height:52px;
+
     flex-shrink:0;
-    border-radius:50%;
-    background:#fff;
+
     display:flex;
     align-items:center;
     justify-content:center;
-    color:#09a94c;
-    font-size:25px;
+
+    border-radius:50%;
+
+    background:#fff;
+
+    color:#08a94c;
+
+    font-size:26px;
+    font-weight:900;
 }
 
-.wa-info{
+.wa-content{
     display:flex;
     flex-direction:column;
-    line-height:1.25;
+
+    line-height:1.3;
 }
 
 .wa-title{
@@ -324,198 +371,241 @@ h1 span{
 
 .wa-sub{
     font-size:10px;
-    opacity:.9;
-    margin-top:4px;
+    opacity:.92;
+
+    margin-top:3px;
 }
 
-.now{
-    background:#fff;
-    color:#087b3a;
-    border-radius:30px;
+.wa-now{
     padding:10px 15px;
+
+    border-radius:30px;
+
+    background:#fff;
+
+    color:#087b3b;
+
     font-size:10px;
     font-weight:900;
 }
 
 
-/* =====================================================
+/* =========================================================
    CALL BUTTON
-===================================================== */
+========================================================= */
 
-.call{
+.call-button{
     width:100%;
+
     min-height:48px;
+
     margin-top:9px;
 
     display:flex;
     align-items:center;
     justify-content:center;
+
     gap:8px;
 
     border:1px solid rgba(255,255,255,.13);
+
     background:rgba(255,255,255,.035);
 
-    border-radius:10px;
+    border-radius:11px;
 
-    color:#e8e2e9;
     font-size:13px;
     font-weight:700;
+
+    color:#e8e0e9;
 }
 
 .call-icon{
-    color:#efb54d;
+    color:var(--gold);
 }
 
 
-/* =====================================================
+/* =========================================================
    TRUST
-===================================================== */
+========================================================= */
 
 .trust{
     display:flex;
     flex-wrap:wrap;
-    gap:16px;
-    margin-top:18px;
-    color:#aaa5ad;
+
+    gap:15px;
+
+    margin-top:17px;
+
+    color:#aaa4ae;
+
     font-size:10px;
 }
 
-.trust span::before{
+.trust span:before{
     content:"●";
+
     color:var(--gold);
+
     margin-right:5px;
 }
 
 
-/* =====================================================
-   GENERAL SECTION
-===================================================== */
+/* =========================================================
+   GENERAL SECTIONS
+========================================================= */
 
 section{
-    padding:82px 0;
+    padding:75px 0;
+
     position:relative;
 }
 
-.section-head{
-    text-align:center;
+.section-heading{
     max-width:720px;
-    margin:0 auto 43px;
+
+    text-align:center;
+
+    margin:0 auto 40px;
 }
 
 .section-label{
-    color:var(--gold-light);
+    color:var(--gold2);
+
     font-size:10px;
+
     font-weight:900;
+
     letter-spacing:2px;
-    margin-bottom:9px;
+
+    margin-bottom:8px;
 }
 
 h2{
     font-family:"Amiri",serif;
+
     color:var(--white);
-    font-size:clamp(38px,5vw,58px);
-    line-height:1.08;
-    margin:0 0 13px;
+
+    font-size:clamp(38px,5vw,57px);
+
+    line-height:1.1;
+
+    margin-bottom:12px;
 }
 
-.section-head p{
+.section-heading p{
     color:var(--muted);
+
     font-size:13px;
 }
 
 
-/* =====================================================
+/* =========================================================
    SERVICES
-===================================================== */
+========================================================= */
 
-.services{
+.services-section{
     background:
     linear-gradient(
         180deg,
-        #08050e,
+        #08050d,
         #0c0712
     );
 }
 
-.service-grid{
+.services-grid{
     display:grid;
+
     grid-template-columns:repeat(3,1fr);
-    gap:17px;
+
+    gap:16px;
 }
 
 .service-card{
-    min-height:245px;
-    padding:28px 24px;
+    min-height:235px;
+
+    padding:27px 23px;
 
     border:1px solid var(--border);
-    border-radius:19px;
+
+    border-radius:18px;
 
     background:
     linear-gradient(
         145deg,
-        rgba(42,20,56,.65),
-        rgba(12,7,18,.72)
+        rgba(42,20,55,.65),
+        rgba(12,7,18,.8)
     );
 
-    position:relative;
     overflow:hidden;
+
+    position:relative;
 }
 
-.service-card::after{
+.service-card:after{
     content:"";
+
     position:absolute;
+
     width:100px;
     height:100px;
+
     border-radius:50%;
-    right:-45px;
+
     top:-45px;
-    border:1px solid rgba(223,174,85,.14);
+    right:-45px;
+
+    border:1px solid rgba(226,178,88,.15);
 }
 
 .service-icon{
-    width:50px;
-    height:50px;
-    border-radius:14px;
-    border:1px solid var(--border);
+    width:49px;
+    height:49px;
 
     display:flex;
     align-items:center;
     justify-content:center;
 
-    color:var(--gold-light);
-    font-size:23px;
+    border:1px solid var(--border);
 
-    margin-bottom:16px;
+    border-radius:13px;
+
+    color:var(--gold2);
+
+    font-size:22px;
+
+    margin-bottom:15px;
 }
 
 .service-card h3{
     font-family:"Amiri",serif;
+
     color:var(--white);
-    font-size:28px;
+
+    font-size:27px;
+
     line-height:1.2;
+
     margin-bottom:8px;
 }
 
 .service-card p{
     color:var(--muted);
+
     font-size:12px;
+
     line-height:1.9;
 }
 
-
-/* =====================================================
-   CTA WRAPPER
-===================================================== */
-
-.cta-wrapper{
+.cta{
     max-width:650px;
-    margin:28px auto 0;
+
+    margin:27px auto 0;
 }
 
 
-/* =====================================================
-   ABOUT IMAGE SECTION
-===================================================== */
+/* =========================================================
+   IMAGE + ABOUT
+========================================================= */
 
 .about-section{
     background:#09060f;
@@ -523,8 +613,11 @@ h2{
 
 .about{
     display:grid;
+
     grid-template-columns:.9fr 1.1fr;
-    gap:55px;
+
+    gap:50px;
+
     align-items:center;
 }
 
@@ -534,18 +627,31 @@ h2{
 
 .about-image img{
     width:100%;
-    height:530px;
+
+    height:520px;
+
     object-fit:cover;
-    border-radius:23px;
+
+    border-radius:22px;
+
     border:1px solid var(--border);
 }
 
-.about-frame{
+.about-image-border{
     position:absolute;
-    inset:13px -13px -13px 13px;
-    border:1px solid rgba(223,174,85,.25);
-    border-radius:23px;
-    z-index:-1;
+
+    inset:12px -12px -12px 12px;
+
+    border:1px solid rgba(226,178,88,.25);
+
+    border-radius:22px;
+
+    z-index:0;
+}
+
+.about-content{
+    position:relative;
+    z-index:2;
 }
 
 .about-content h2{
@@ -554,136 +660,175 @@ h2{
 
 .about-content p{
     color:var(--muted);
+
     font-size:13px;
+
     line-height:2;
-    margin-bottom:15px;
+
+    margin-bottom:14px;
 }
 
 .points{
     display:grid;
+
     gap:10px;
-    margin:24px 0;
+
+    margin:22px 0;
 }
 
 .point{
     display:flex;
+
     gap:11px;
+
     padding:13px;
 
     border:1px solid rgba(255,255,255,.06);
+
     border-radius:11px;
 
     background:rgba(255,255,255,.025);
 }
 
-.point-check{
-    color:var(--gold-light);
+.check{
+    color:var(--gold2);
+
     font-weight:900;
 }
 
 .point strong{
     display:block;
+
     font-size:12px;
 }
 
 .point small{
-    display:block;
     color:var(--muted);
+
     font-size:10px;
 }
 
 
-/* =====================================================
+/* =========================================================
    KALA ILM
-===================================================== */
+========================================================= */
 
-.kala{
-    border-top:1px solid rgba(223,174,85,.12);
-    border-bottom:1px solid rgba(223,174,85,.12);
-
+.kala-section{
     background:
     radial-gradient(
         circle at center,
-        rgba(86,34,112,.23),
-        transparent 55%
+        rgba(82,31,107,.22),
+        transparent 58%
     ),
-    #09050f;
+    #08050d;
+
+    border-top:1px solid rgba(226,178,88,.12);
+    border-bottom:1px solid rgba(226,178,88,.12);
 }
 
 .kala-box{
     max-width:900px;
-    margin:0 auto;
 
-    padding:50px 30px;
+    margin:auto;
+
+    padding:48px 28px;
 
     text-align:center;
 
     border:1px solid var(--border);
-    border-radius:25px;
+
+    border-radius:24px;
 
     background:
     linear-gradient(
         145deg,
-        rgba(40,19,54,.72),
-        rgba(8,4,13,.85)
+        rgba(40,18,53,.75),
+        rgba(8,4,13,.88)
     );
 }
 
 .kala-symbol{
     font-family:"Amiri",serif;
-    color:var(--gold-light);
-    font-size:34px;
+
+    color:var(--gold2);
+
+    font-size:33px;
 }
 
 .kala-box p{
     max-width:720px;
-    margin:0 auto 24px;
+
+    margin:0 auto 23px;
+
     color:var(--muted);
+
     font-size:13px;
+
     line-height:2;
 }
 
 .tags{
     display:flex;
+
     justify-content:center;
+
     flex-wrap:wrap;
+
     gap:9px;
+
     margin-bottom:27px;
 }
 
 .tags span{
-    border:1px solid var(--border);
-    border-radius:30px;
     padding:8px 14px;
-    color:#d9d3dc;
+
+    border:1px solid var(--border);
+
+    border-radius:30px;
+
+    color:#d8d1db;
+
     font-size:10px;
 }
 
 
-/* =====================================================
+/* =========================================================
    LOVE + WEDDING
-===================================================== */
+========================================================= */
+
+.images-section{
+    background:#09060f;
+}
 
 .image-grid{
     display:grid;
+
     grid-template-columns:1fr 1fr;
+
     gap:17px;
 }
 
 .image-card{
-    height:480px;
+    height:475px;
+
     border-radius:22px;
+
     overflow:hidden;
+
     position:relative;
+
     border:1px solid var(--border);
+
     background:#100817;
 }
 
 .image-card img{
     width:100%;
     height:100%;
+
     object-fit:cover;
-    transition:.5s;
+
+    transition:.4s;
 }
 
 .image-card:hover img{
@@ -692,55 +837,62 @@ h2{
 
 .image-overlay{
     position:absolute;
-    inset:0;
 
-    display:flex;
-    align-items:flex-end;
+    left:0;
+    right:0;
+    bottom:0;
 
-    padding:27px;
+    padding:25px;
 
     background:
     linear-gradient(
         to top,
-        rgba(5,2,9,.96),
-        transparent 65%
+        rgba(5,2,9,.97),
+        transparent
     );
 }
 
 .image-overlay h3{
     font-family:"Amiri",serif;
+
     color:var(--white);
+
     font-size:30px;
 }
 
 
-/* =====================================================
-   ALL SERVICES LIST
-===================================================== */
+/* =========================================================
+   MORE SERVICES
+========================================================= */
 
-.more-services{
+.more-section{
     background:
     linear-gradient(
         180deg,
-        #09050f,
+        #09060f,
         #0d0714
     );
 }
 
 .service-list{
     display:grid;
+
     grid-template-columns:1fr 1fr;
+
     gap:13px;
 }
 
 .service-row{
     display:flex;
+
     align-items:center;
+
     gap:13px;
 
     padding:16px;
 
-    border:1px solid rgba(223,174,85,.16);
+    border:1px solid rgba(226,178,88,.16);
+
     border-radius:13px;
 
     background:rgba(255,255,255,.025);
@@ -749,6 +901,7 @@ h2{
 .row-icon{
     width:43px;
     height:43px;
+
     flex-shrink:0;
 
     display:flex;
@@ -757,118 +910,149 @@ h2{
 
     border-radius:12px;
 
-    background:rgba(223,174,85,.08);
     border:1px solid var(--border);
 
-    color:var(--gold-light);
+    background:rgba(226,178,88,.07);
+
+    color:var(--gold2);
 }
 
 .service-row strong{
     display:block;
+
     font-size:12px;
 }
 
 .service-row small{
     display:block;
+
     color:var(--muted);
+
     font-size:10px;
 }
 
 
-/* =====================================================
+/* =========================================================
    PROCESS
-===================================================== */
+========================================================= */
+
+.process-section{
+    background:#08050d;
+}
 
 .steps{
     display:grid;
+
     grid-template-columns:repeat(3,1fr);
-    gap:18px;
+
+    gap:17px;
 }
 
 .step{
     padding:27px;
+
     border-top:1px solid var(--border);
 }
 
 .step-number{
     font-family:"Amiri",serif;
+
+    color:var(--gold2);
+
     font-size:43px;
-    color:var(--gold-light);
 }
 
 .step h3{
     font-size:16px;
-    margin:3px 0 8px;
+
+    margin:2px 0 7px;
 }
 
 .step p{
     color:var(--muted);
+
     font-size:12px;
 }
 
 
-/* =====================================================
+/* =========================================================
    FINAL CTA
-===================================================== */
+========================================================= */
 
-.final{
-    padding:0 0 90px;
+.final-section{
+    padding:0 0 85px;
+
+    background:#08050d;
 }
 
 .final-box{
     max-width:900px;
-    margin:0 auto;
 
-    padding:58px 25px;
+    margin:auto;
+
+    padding:55px 25px;
 
     text-align:center;
 
     border:1px solid var(--border);
-    border-radius:26px;
+
+    border-radius:25px;
 
     background:
     radial-gradient(
         circle,
-        rgba(223,174,85,.10),
-        transparent 58%
+        rgba(226,178,88,.09),
+        transparent 60%
     );
 }
 
 .final-box p{
     max-width:620px;
+
     margin:0 auto 25px;
+
     color:var(--muted);
+
     font-size:13px;
 }
 
 
-/* =====================================================
+/* =========================================================
    FOOTER
-===================================================== */
+========================================================= */
 
 footer{
-    border-top:1px solid rgba(223,174,85,.12);
-    text-align:center;
     padding:35px 15px 95px;
+
+    text-align:center;
+
+    border-top:1px solid rgba(226,178,88,.12);
+
     color:#85808a;
+
     font-size:10px;
 }
 
 .footer-name{
     font-family:"Amiri",serif;
-    color:var(--gold-light);
+
+    color:var(--gold2);
+
     font-size:24px;
+
+    margin-bottom:4px;
 }
 
 
-/* =====================================================
+/* =========================================================
    FLOATING WHATSAPP
-===================================================== */
+========================================================= */
 
 .floating-wa{
     position:fixed;
-    right:16px;
-    bottom:88px;
+
+    right:15px;
+    bottom:87px;
 
     width:58px;
     height:58px;
@@ -882,65 +1066,72 @@ footer{
     background:
     linear-gradient(
         135deg,
-        #12ca5d,
-        #08a74b
+        var(--green),
+        var(--green2)
     );
 
     color:white;
+
     font-size:25px;
 
     z-index:90;
 
     box-shadow:
-    0 9px 30px
-    rgba(0,0,0,.55);
+    0 8px 30px rgba(0,0,0,.55);
 }
 
 
-/* =====================================================
-   BOTTOM BAR
-===================================================== */
+/* =========================================================
+   FIXED BOTTOM BAR
+========================================================= */
 
 .bottom-bar{
     position:fixed;
+
     left:0;
     bottom:0;
 
     width:100%;
+
     height:70px;
 
     display:grid;
+
     grid-template-columns:1fr 1fr;
 
     z-index:100;
 
     box-shadow:
-    0 -8px 30px
-    rgba(0,0,0,.55);
+    0 -8px 30px rgba(0,0,0,.55);
 }
 
 .bottom-call{
     display:flex;
+
     align-items:center;
     justify-content:center;
+
     gap:9px;
 
     background:
     linear-gradient(
         135deg,
-        #ad0c16,
-        #d01820
+        #aa0c15,
+        #d01821
     );
 
     color:white;
+
     font-size:16px;
     font-weight:900;
 }
 
-.bottom-wa{
+.bottom-whatsapp{
     display:flex;
+
     align-items:center;
     justify-content:center;
+
     gap:9px;
 
     background:
@@ -951,20 +1142,17 @@ footer{
     );
 
     color:white;
+
     font-size:16px;
     font-weight:900;
 }
 
 
-/* =====================================================
+/* =========================================================
    MOBILE
-===================================================== */
+========================================================= */
 
 @media(max-width:800px){
-
-    body{
-        padding-bottom:70px;
-    }
 
     .container{
         width:calc(100% - 28px);
@@ -975,44 +1163,63 @@ footer{
     }
 
     .header{
-        top:38px;
-        padding:14px 0;
+        padding:13px 0;
     }
 
-    .header-wa{
+    .header-button{
         font-size:10px;
         padding:8px 12px;
     }
 
     .hero{
         min-height:auto;
-        padding:140px 0 55px;
+
+        padding:
+        125px 0 50px;
+
+        display:block;
     }
 
-    .hero-photo{
+    .hero-background{
         background-image:
         linear-gradient(
             180deg,
-            rgba(7,3,12,.68),
-            rgba(7,3,12,.88) 65%,
-            #08050e 100%
+            rgba(5,2,10,.60),
+            rgba(5,2,10,.84) 55%,
+            rgba(5,2,10,.98) 100%
         ),
         url("https://img.sanishtech.com/u/02db15b2db3873f84a53ffc9f2c28cae.jpg");
 
-        background-position:center;
+        background-position:center top;
+    }
+
+    .hero-content{
+        max-width:100%;
+    }
+
+    .arabic{
+        font-size:23px;
     }
 
     h1{
-        font-size:54px;
+        font-size:50px;
+
+        line-height:1.06;
     }
 
     .hero-text{
         font-size:13px;
+
         line-height:1.9;
     }
 
-    .whatsapp{
+    .wa-button{
         min-height:67px;
+    }
+
+    .wa-circle{
+        width:50px;
+        height:50px;
     }
 
     .wa-title{
@@ -1023,7 +1230,7 @@ footer{
         font-size:9px;
     }
 
-    .now{
+    .wa-now{
         padding:9px 13px;
     }
 
@@ -1035,11 +1242,11 @@ footer{
         padding:68px 0;
     }
 
-    .section-head{
+    .section-heading{
         margin-bottom:34px;
     }
 
-    .service-grid{
+    .services-grid{
         grid-template-columns:1fr;
     }
 
@@ -1049,6 +1256,7 @@ footer{
 
     .about{
         grid-template-columns:1fr;
+
         gap:40px;
     }
 
@@ -1061,7 +1269,7 @@ footer{
     }
 
     .kala-box{
-        padding:42px 19px;
+        padding:42px 18px;
     }
 
     .image-grid{
@@ -1069,7 +1277,7 @@ footer{
     }
 
     .image-card{
-        height:425px;
+        height:420px;
     }
 
     .service-list{
@@ -1087,21 +1295,21 @@ footer{
 }
 
 
-/* =====================================================
-   SMALL PHONE
-===================================================== */
+/* =========================================================
+   VERY SMALL PHONES
+========================================================= */
 
 @media(max-width:390px){
 
     h1{
-        font-size:48px;
+        font-size:46px;
     }
 
     .wa-title{
         font-size:15px;
     }
 
-    .now{
+    .wa-now{
         padding:8px 11px;
     }
 
@@ -1135,7 +1343,6 @@ footer{
         <a href="#home" class="brand">
 
             <img
-                class="brand-logo"
                 src="https://img.sanishtech.com/u/5addf756a68858f29fd406e3cdbe9c71.jpg"
                 alt="बाबा अकरम खान बंगाली">
 
@@ -1147,7 +1354,7 @@ footer{
 
 
         <a
-            class="header-wa"
+            class="header-button"
             href="https://wa.me/919592445273?text=अस्सलामु%20अलैकुम%20बाबा%20अकरम%20खान%20बंगाली,%20मैं%20निजी%20परामर्श%20के%20लिए%20बात%20करना%20चाहता%20हूँ।"
             target="_blank"
             rel="noopener">
@@ -1166,11 +1373,9 @@ footer{
      HERO
 ===================================================== -->
 
-<section class="hero star-bg" id="home">
+<section class="hero" id="home">
 
-    <div class="hero-photo"></div>
-
-    <div class="hero-bottom"></div>
+    <div class="hero-background"></div>
 
 
     <div class="container">
@@ -1185,15 +1390,5 @@ footer{
 
             <div class="badge">
 
-                <span class="badge-dot"></span>
-
-                काला इल्म के माहिर • व्यक्तिगत परामर्श
-
-            </div>
-
-
-            <h1>
-
-                आपकी परेशानी,<br>
-
-                <span>आ
+                <span class="ba
+                   
